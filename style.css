@@ -63,3 +63,29 @@ button {
 button:hover {
   transform: scale(1.1);
 }
+
+nav {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+li:hover {
+  transform: scale(1.2);
+}
+
+header {
+  color: beige;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
